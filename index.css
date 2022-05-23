@@ -1,0 +1,72 @@
+body {
+    margin-left:0;
+    margin-top:15px;
+    font-family: arial, serif;
+    background: #bdbdbd;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+table {
+    background: #bdbdbd;
+    border-spacing: 0px;
+    padding: 0.25em;
+    border: 6px solid #7b7b7b;
+    font-size: xx-large;
+}
+
+td {
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    color: transparent;
+    background: #bdbdbd;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #7b7b7b;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #7b7b7b;
+}
+
+td.clicked.one {
+    color: #0000ff;
+}
+td.clicked.two {
+    color: #007b00;
+}
+td.clicked.three {
+    color: #ff0000;
+}
+td.clicked.four {
+    color: #00007b;
+}
+td.clicked.five {
+    color: #7b0000;
+}
+td.clicked.six {
+    color: #007b7b;
+}
+td.clicked.seven {
+    color: #000000;
+}
+td.clicked.eight {
+    color: #7b7b7b;
+}
+
+td.clicked.bomb {
+    color: unset;
+}
+
+td.clicked {
+    border: solid 4px #838383;
+    cursor: default;
+}
